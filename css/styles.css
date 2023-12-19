@@ -1,0 +1,213 @@
+:root {
+  --slate: #434455;
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  background-color: var(--white);
+}
+
+/* Index Logo */
+.logo {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+}
+.header-logo-text {
+  color: var(--navyblue);
+}
+
+/* Index - Navigation */
+.list-item > .menu {
+  color: var(--navyblue);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+li > .link:hover,
+li > .link:focus {
+  color: var(--ocean);
+}
+
+.address-list-item > .address {
+  color: var(--slate);
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.address {
+  font-style: normal;
+}
+
+.list,
+.features-list-item,
+.task-list-item,
+.team-list-item,
+.btn-list-item,
+.project-list-item {
+  list-style: none;
+}
+
+/* Index - Hero */
+.title {
+  background-color: var(--navyblue);
+}
+
+.title-hero {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 107.143%;
+  letter-spacing: 1.12px;
+}
+
+.title-button {
+  background-color: var(--iris);
+
+  color: var(--white);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.title-button:hover,
+.title-button:focus {
+  background-color: var(--ocean);
+}
+
+/* Index - Features */
+.features-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+.features-text {
+  color: var(--slate);
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+/* Index - What Are We Doing */
+.task-header {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/* Index - Our Team */
+.team-header {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.team-subheader {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+.team-text {
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-list-item {
+  background-color: var(--white);
+}
+
+/* Index - Footer */
+.footer {
+  background-color: var(--navyblue);
+}
+
+.footer-logo {
+  color: var(--cloud);
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.footer-text {
+  color: var(--cloud);
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+/* Portfolio - Main Buttons  */
+.btn-text {
+  color: var(--iris);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.btn-text:hover,
+.btn-text:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.btn-text {
+  cursor: pointer;
+}
+
+/* Projects */
+.project-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.project-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
