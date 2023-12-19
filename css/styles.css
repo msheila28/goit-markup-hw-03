@@ -255,7 +255,8 @@ header {
 }
 
 .nav .list-item {
-  padding: 24px 0 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address .list {
