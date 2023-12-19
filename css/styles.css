@@ -248,3 +248,9 @@ header {
 .nav .logo {
   margin-right: 76px;
 }
+
+.nav .list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
