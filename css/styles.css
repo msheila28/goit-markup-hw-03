@@ -239,3 +239,12 @@ header {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav .logo {
+  margin-right: 76px;
+}
