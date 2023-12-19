@@ -229,3 +229,13 @@ li > .link:focus {
 header {
   border-bottom: 1px solid var(--cornflower);
 }
+
+.header .container {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: o auto;
+  padding: 0 15px;
+}
