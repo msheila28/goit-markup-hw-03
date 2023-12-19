@@ -225,3 +225,7 @@ li > .link:focus {
 .image {
   display: block;
 }
+
+header {
+  border-bottom: 1px solid var(--cornflower);
+}
