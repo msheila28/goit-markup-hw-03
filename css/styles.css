@@ -38,6 +38,7 @@ body {
 
 .link {
   text-decoration: none;
+  padding: 24px 0;
 }
 .header-logo-text {
   color: var(--navyblue);
