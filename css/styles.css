@@ -120,6 +120,7 @@ li > .link:focus {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -136,6 +137,10 @@ li > .link:focus {
 .container .list {
   display: flex;
   gap: 24px;
+}
+
+.features-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 /* Index - What Are We Doing */
