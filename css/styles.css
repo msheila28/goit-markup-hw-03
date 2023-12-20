@@ -272,12 +272,19 @@ li > .link:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-bottom: 8px;
 }
 
 .project-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.container-application {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
 /* Homepage */
@@ -320,10 +327,4 @@ header {
 .address .list {
   display: flex;
   gap: 40px;
-}
-
-/* Project */
-.list .project-list-item {
-  flex-wrap: wrap;
-  row-gap: 48px;
 }
