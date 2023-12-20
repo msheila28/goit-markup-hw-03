@@ -139,7 +139,8 @@ li > .link:focus {
   gap: 24px;
 }
 
-.features-list-item {
+.features-list-item,
+.team-list-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -163,7 +164,7 @@ li > .link:focus {
   padding-bottom: 120px;
 }
 
-/* Index - Our Team */
+/* Index - Fourth Section - Our Team */
 .team-header {
   color: var(--navyblue);
   text-align: center;
@@ -172,6 +173,7 @@ li > .link:focus {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-subheader {
@@ -181,6 +183,7 @@ li > .link:focus {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -191,10 +194,16 @@ li > .link:focus {
 
 .team {
   background-color: var(--cloud);
+  padding: 120px;
 }
 
 .team-list-item {
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container-employee {
+  padding: 32px 0;
 }
 
 /* Index - Footer */
