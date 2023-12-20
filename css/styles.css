@@ -209,6 +209,7 @@ li > .link:focus {
 /* Index - Footer */
 .footer {
   background-color: var(--navyblue);
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -222,6 +223,12 @@ li > .link:focus {
   color: var(--cloud);
   line-height: 150%;
   letter-spacing: 0.32px;
+  max-width: 264px;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* Portfolio - Main Buttons  */
