@@ -280,6 +280,11 @@ li > .link:focus {
   color: var(--slate);
 }
 
+.project-list-item {
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
 /* Homepage */
 .image {
   display: block;
