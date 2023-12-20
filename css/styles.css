@@ -139,9 +139,12 @@ li > .link:focus {
   gap: 24px;
 }
 
-.features-list-item,
-.task-list-item {
+.features-list-item {
   width: calc((100% - 72px) / 4);
+}
+
+.task-list-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /* Index - Third Section - What Are We Doing */
