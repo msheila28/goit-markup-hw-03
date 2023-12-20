@@ -138,7 +138,7 @@ li > .link:focus {
   gap: 24px;
 }
 
-.features-title {
+h2.features-title {
   visibility: hidden;
 }
 
