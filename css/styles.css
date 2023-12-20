@@ -1,11 +1,15 @@
-h1,
+* {
+  margin: 0;
+  padding: 0;
+}
+/* h1,
 h2,
 h3,
 p,
 ul {
   margin: 0;
   padding: 0;
-}
+} */
 
 :root {
   --slate: #434455;
@@ -315,8 +319,9 @@ header {
   border-bottom: 1px solid var(--cornflower);
 }
 
-.header .container {
+.main-header {
   display: flex;
+  justify-content: space-between;
 }
 
 .container {
@@ -343,7 +348,11 @@ header {
   padding: 24px 0;
 }
 
-.address .list {
+.address > .list {
   display: flex;
   gap: 40px;
+}
+
+.address {
+  align-items: center;
 }
