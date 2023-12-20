@@ -280,11 +280,6 @@ li > .link:focus {
   color: var(--slate);
 }
 
-.list .project-list-item {
-  flex-wrap: wrap;
-  row-gap: 48px;
-}
-
 /* Homepage */
 .image {
   display: block;
@@ -325,4 +320,10 @@ header {
 .address .list {
   display: flex;
   gap: 40px;
+}
+
+/* Project */
+.list .project-list-item {
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
