@@ -138,10 +138,6 @@ li > .link:focus {
   gap: 24px;
 }
 
-h2.features-title {
-  visibility: hidden;
-}
-
 /* Index - What Are We Doing */
 .task-header {
   color: var(--navyblue);
