@@ -246,14 +246,23 @@ li > .link:focus {
 .btn-text:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid transparent;
 }
 
 .btn-text {
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
 }
 
 .btn {
   padding-top: 96px;
+}
+
+.btn .list {
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 /* Projects */
