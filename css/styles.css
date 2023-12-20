@@ -252,6 +252,10 @@ li > .link:focus {
   cursor: pointer;
 }
 
+.btn {
+  padding-top: 96px;
+}
+
 /* Projects */
 .project-header {
   font-weight: 500;
