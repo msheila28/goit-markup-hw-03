@@ -257,7 +257,7 @@ li > .link:focus {
 }
 
 .btn {
-  padding-top: 96px 0 120px 0;
+  padding: 96px 0 120px 0;
 }
 
 .btn .list {
