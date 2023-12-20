@@ -194,7 +194,7 @@ li > .link:focus {
 
 .team {
   background-color: var(--cloud);
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .team-list-item {
